@@ -20,7 +20,7 @@ public class charMovement : MonoBehaviour
 
         rb = GetComponent<Rigidbody>();
         input = new InputSystem();
-        movementSpeed = 10f;
+        movementSpeed = 7f;
         jumpForce = 5f;
 
     }
