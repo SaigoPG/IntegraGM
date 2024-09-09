@@ -1033,6 +1033,7 @@ MonoBehaviour:
   maxHealth: 3
   gravity: -15
   jumpForce: 12
+  raycastSize: 1.1
 --- !u!1 &2097247456
 GameObject:
   m_ObjectHideFlags: 0

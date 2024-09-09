@@ -6,9 +6,11 @@ using UnityEngine.InputSystem;
 public class Player : DamageableEntity, IHealable
 {
     [SerializeField] private float jumpForce;
+    [SerializeField] private float raycastSize = 1f;
 
     private bool jumpRequest = false;
     private float moveInput;
+
 
     private void Awake()
     {
@@ -31,6 +33,7 @@ public class Player : DamageableEntity, IHealable
         Vector3 playerMovement = Vector3.zero;
         playerMovement.x = HandleWalk();
         HandleJump();
+        HandleHeadCollision();
         playerMovement.y = fallVelocity;
         characterController.Move(playerMovement * Time.fixedDeltaTime);
     }
@@ -59,6 +62,21 @@ public class Player : DamageableEntity, IHealable
     {
         float XMovement = moveInput * movementSpeed;
         return XMovement;
+    }
+
+    private void HandleHeadCollision()
+    {
+        Ray ray = new Ray(transform.position, Vector3.up * raycastSize);
+        Debug.DrawRay(ray.origin, ray.direction * raycastSize);
+        if (!Physics.Raycast(ray, out RaycastHit hit, raycastSize))
+        {
+            return;
+        }
+        if (hit.transform.gameObject.CompareTag("Ground"))
+        {
+            fallVelocity = gravity * Time.fixedDeltaTime;
+        }
+
     }
 
     private void HandleInputs()
