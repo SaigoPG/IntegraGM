@@ -7,10 +7,17 @@ public class Player : DamageableEntity, IHealable
 {
     [SerializeField] private float jumpForce;
 
+    private bool jumpRequest = false;
+    private float moveInput;
 
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
+    }
+
+    private void Update()
+    {
+        HandleInputs();
     }
 
     private void FixedUpdate()
@@ -41,17 +48,27 @@ public class Player : DamageableEntity, IHealable
 
     private void HandleJump()
     {
-        if (characterController.isGrounded && Input.GetKeyDown(KeyCode.Space))
+        if (jumpRequest)
         {
             fallVelocity = jumpForce;
+            jumpRequest = false;
         }
     }
     
     private float HandleWalk()
     {
-        float moveInput = Input.GetAxis("Horizontal");
         float XMovement = moveInput * movementSpeed;
         return XMovement;
     }
 
+    private void HandleInputs()
+    {
+        //Movimiento
+        moveInput = Input.GetAxis("Horizontal");
+        //Salto
+        if (Input.GetKeyDown(KeyCode.Space) && characterController.isGrounded)
+        {
+            jumpRequest = true;
+        }
+    }
 }

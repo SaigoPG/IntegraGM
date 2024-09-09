@@ -11,6 +11,11 @@ public abstract class DamageableEntity : Entity, IDamageable, IDestroyable
     protected int health;
     protected CharacterController characterController;
     protected float fallVelocity = 0;
+
+    public void Start()
+    {
+        health = maxHealth;
+    }
     public void TakeDamage(int damage)
     {
         health -= damage;
