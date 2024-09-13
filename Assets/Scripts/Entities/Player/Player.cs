@@ -33,7 +33,7 @@ public class Player : DamageableEntity, IHealable
         Vector3 playerMovement = Vector3.zero;
         playerMovement.x = HandleWalk();
         HandleJump();
-        HandleHeadCollision();
+        HandleHeadCollisions();
         playerMovement.y = fallVelocity;
         characterController.Move(playerMovement * Time.fixedDeltaTime);
     }
@@ -64,19 +64,20 @@ public class Player : DamageableEntity, IHealable
         return XMovement;
     }
 
-    private void HandleHeadCollision()
+    private void HandleHeadCollisions()
     {
         Ray ray = new Ray(transform.position, Vector3.up * raycastSize);
         Debug.DrawRay(ray.origin, ray.direction * raycastSize);
-        if (!Physics.Raycast(ray, out RaycastHit hit, raycastSize))
+        RaycastHit[] hits = Physics.RaycastAll(ray, raycastSize);
+        if (hits.Length == 0){return;}
+        foreach (RaycastHit hit in hits)
         {
-            return;
+            if (hit.transform.gameObject.CompareTag("Ground"))
+            {
+                fallVelocity = gravity * Time.fixedDeltaTime;
+                break;
+            }
         }
-        if (hit.transform.gameObject.CompareTag("Ground"))
-        {
-            fallVelocity = gravity * Time.fixedDeltaTime;
-        }
-
     }
 
     private void HandleInputs()
