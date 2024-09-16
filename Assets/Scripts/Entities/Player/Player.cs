@@ -10,16 +10,18 @@ public class Player : DamageableEntity, IHealable
 
     private bool jumpRequest = false;
     private float moveInput;
-
+    private float animationInput;
 
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
     {
         HandleInputs();
+        HandleAnimations();
     }
 
     private void FixedUpdate()
@@ -84,10 +86,30 @@ public class Player : DamageableEntity, IHealable
     {
         //Movimiento
         moveInput = Input.GetAxis("Horizontal");
+        //Animaciones
+        animationInput = Input.GetAxisRaw("Horizontal");
         //Salto
         if (Input.GetKeyDown(KeyCode.Space) && characterController.isGrounded)
         {
             jumpRequest = true;
+            //Forzar animacion de salto
+            animator.Play("Jumping", 0);
+        }
+    }
+
+    private void HandleAnimations()
+    {
+        animator.SetBool("IsJumping", !characterController.isGrounded && fallVelocity > 0);
+        animator.SetFloat("movement", animationInput);
+        animator.SetBool("OnFloor", characterController.isGrounded);
+        animator.SetBool("IsFalling", !characterController.isGrounded && fallVelocity < 0);
+        if (animationInput < 0 && transform.localScale.x > 0)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
+        else if (animationInput > 0 && transform.localScale.x < 0)
+        {
+            transform.localScale = new Vector3(1, 1, 1);
         }
     }
 }

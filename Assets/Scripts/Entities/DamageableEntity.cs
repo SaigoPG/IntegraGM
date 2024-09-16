@@ -10,6 +10,7 @@ public abstract class DamageableEntity : Entity, IDamageable, IDestroyable
 
     protected int health;
     protected CharacterController characterController;
+    protected Animator animator;
     protected float fallVelocity = 0;
 
     public void Start()
