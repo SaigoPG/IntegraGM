@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Player : DamageableEntity, IHealable
+public class Player : DamageableEntity
 {
     [SerializeField] private float jumpForce;
     [SerializeField] private float raycastSize = 1f;
@@ -12,16 +12,23 @@ public class Player : DamageableEntity, IHealable
     private float moveInput;
     private float animationInput;
 
+    private PlayerAnimator playerAnimator;
+
+    [Header("Abilities")]
+    public bool doubleJump = false;
+
+    private int jumpsOnAir = 0;
+
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
-        animator = GetComponent<Animator>();
+        playerAnimator = GetComponent<PlayerAnimator>();
     }
 
     private void Update()
     {
         HandleInputs();
-        HandleAnimations();
+        playerAnimator.UpdateAnimations(animationInput, fallVelocity, characterController.isGrounded);
     }
 
     private void FixedUpdate()
@@ -31,7 +38,7 @@ public class Player : DamageableEntity, IHealable
 
     protected override void Movement()
     {
-        SetGavity();
+        base.Movement();
         Vector3 playerMovement = Vector3.zero;
         playerMovement.x = HandleWalk();
         HandleJump();
@@ -39,17 +46,6 @@ public class Player : DamageableEntity, IHealable
         playerMovement.y = fallVelocity;
         characterController.Move(playerMovement * Time.fixedDeltaTime);
     }
-
-    public override void Death()
-    {
-        //Ejecutar animacion sonido o lo que sea que ocurra cuando muera
-    }
-
-    public void Heal(int amount)
-    {
-        health = Mathf.Clamp(health + amount, 0, maxHealth);
-    }
-    //Funciones del manejo del movimiento y salto
 
     private void HandleJump()
     {
@@ -89,25 +85,15 @@ public class Player : DamageableEntity, IHealable
         //Animaciones
         animationInput = Input.GetAxisRaw("Horizontal");
         //Salto
-        if (Input.GetKeyDown(KeyCode.Space) && characterController.isGrounded)
+        if (characterController.isGrounded)
+        {
+            jumpsOnAir = 0;
+            if (Input.GetKeyDown(KeyCode.Space)) jumpRequest = true;
+        }
+        else if (Input.GetKeyDown(KeyCode.Space) && doubleJump && jumpsOnAir < 1)
         {
             jumpRequest = true;
-        }
-    }
-
-    private void HandleAnimations()
-    {
-        animator.SetBool("IsJumping", !characterController.isGrounded && fallVelocity > 0);
-        animator.SetFloat("movement", animationInput);
-        animator.SetBool("OnFloor", characterController.isGrounded);
-        animator.SetBool("IsFalling", !characterController.isGrounded && fallVelocity < 0);
-        if (animationInput < 0 && transform.localScale.x > 0)
-        {
-            transform.localScale = new Vector3(-1, 1, 1);
-        }
-        else if (animationInput > 0 && transform.localScale.x < 0)
-        {
-            transform.localScale = new Vector3(1, 1, 1);
+            jumpsOnAir = 1;
         }
     }
 }

@@ -2,30 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class DamageableEntity : Entity, IDamageable, IDestroyable
+public abstract class DamageableEntity : Entity
 {
-    [SerializeField] protected int maxHealth;
-    [SerializeField] protected float gravity = -9.8f;
-    [HideInInspector] public bool canTakeDamage { get; set; } = true;
+    [SerializeField] protected float _gravity = -9.8f;
 
-    protected int health;
     protected CharacterController characterController;
-    protected Animator animator;
     protected float fallVelocity = 0;
 
-    public void Start()
-    {
-        health = maxHealth;
-    }
-    public void TakeDamage(int damage)
-    {
-        health -= damage;
-        if (health < 0)
-        {
-            Death();
-        }
-        print(health);
-    }
+    public float gravity => _gravity;
+
+
 
     protected void SetGavity()
     {
@@ -38,6 +24,10 @@ public abstract class DamageableEntity : Entity, IDamageable, IDestroyable
             fallVelocity += gravity * Time.fixedDeltaTime;
         }
     }
-    public abstract void Death();
+
+    protected override void Movement()
+    {
+        SetGavity();
+    }
 
 }

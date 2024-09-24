@@ -20,7 +20,6 @@ public class Door : InteractableObject
         }
         else if (collision.gameObject.CompareTag("Player"))
         {
-            print("Deteniendo cierre de puerta");
             StopCoroutine(currentCorroutine);
             currentCorroutine = null;
         }

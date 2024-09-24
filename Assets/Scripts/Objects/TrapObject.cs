@@ -8,10 +8,7 @@ public class TrapObject : MonoBehaviour, IAttacker
 
     public void Attack(IDamageable damagableEntity)
     {
-        if (damagableEntity.canTakeDamage)
-        {
             damagableEntity.TakeDamage(damage);
-        }
     }
     private void OnTriggerEnter(Collider collision)
     {
