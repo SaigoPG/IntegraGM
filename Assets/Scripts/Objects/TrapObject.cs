@@ -5,6 +5,8 @@ using UnityEngine;
 public class TrapObject : MonoBehaviour, IAttacker
 {
     [SerializeField] private int damage;
+    [SerializeField] private string debuffType;
+    [SerializeField] private float slowFactor;
 
     public void Attack(IDamageable damagableEntity)
     {
@@ -15,12 +17,46 @@ public class TrapObject : MonoBehaviour, IAttacker
     }
     private void OnTriggerEnter(Collider collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            print("Colisionando con jugador");
-            Attack(collision.gameObject.GetComponent<IDamageable>());
-            return;
+        
+        GameObject colObj = collision.gameObject;
+
+        if (colObj.CompareTag("Player"))
+        {   
+            Player playerRef = colObj.GetComponent<Player>();
+
+            switch (debuffType){
+
+                case ("SlowDown"):
+
+                    Debug.Log("SlowDown");
+                    playerRef.SetMovementSpeed(playerRef.GetMovementSpeed() * slowFactor);
+
+                    break;
+
+                case ("Damaging"):
+
+                    Debug.Log("Damaging");
+                    Attack(colObj.GetComponent<IDamageable>());
+                    playerRef.SetJumpRequest(true);                  
+
+                    break;
+
+                case ("Both"):
+
+                    Debug.Log("Both");
+                    playerRef.SetMovementSpeed(playerRef.GetMovementSpeed() * slowFactor);
+                    Attack(colObj.GetComponent<IDamageable>());
+                    playerRef.SetJumpRequest(true);  
+
+                    break;
+
+                default:
+                    Debug.Log("What");
+                    break;
+
+            }
+            
         }
-        print("Colisionando con algo");
+        
     }
 }

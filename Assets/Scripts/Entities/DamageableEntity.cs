@@ -16,15 +16,7 @@ public abstract class DamageableEntity : Entity, IDamageable, IDestroyable
     {
         health = maxHealth;
     }
-    public void TakeDamage(int damage)
-    {
-        health -= damage;
-        if (health < 0)
-        {
-            Death();
-        }
-        print(health);
-    }
+    public abstract void TakeDamage(int damage);
 
     protected void SetGavity()
     {
