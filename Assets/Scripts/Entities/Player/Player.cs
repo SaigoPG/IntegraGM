@@ -92,8 +92,6 @@ public class Player : DamageableEntity, IHealable
         if (Input.GetKeyDown(KeyCode.Space) && characterController.isGrounded)
         {
             jumpRequest = true;
-            //Forzar animacion de salto
-            animator.Play("Jumping", 0);
         }
     }
 
