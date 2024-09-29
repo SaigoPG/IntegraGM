@@ -7,12 +7,16 @@ public class Player : DamageableEntity
 {
     [SerializeField] private float jumpForce;
     [SerializeField] private float raycastSize = 1f;
+    [Header("Damage Params")]
+    [SerializeField] private float pushFactor;
 
+    Vector3 platformVelocity, pushDirection;
     private bool jumpRequest = false;
     private float moveInput;
     private float animationInput;
-
+    private bool isOnPlatform;   
     private PlayerAnimator playerAnimator;
+    private HealthManager hm;
 
     [Header("Abilities")]
     public bool doubleJump = false;
@@ -23,6 +27,7 @@ public class Player : DamageableEntity
     {
         characterController = GetComponent<CharacterController>();
         playerAnimator = GetComponent<PlayerAnimator>();
+        hm = GetComponent<HealthManager>();
     }
 
     private void Update()
@@ -44,6 +49,20 @@ public class Player : DamageableEntity
         HandleJump();
         HandleHeadCollisions();
         playerMovement.y = fallVelocity;
+
+        if(isOnPlatform){
+
+            playerMovement += platformVelocity;
+
+        }
+
+        if(hm.GetAttackStatus()){
+           
+            pushDirection = hm.GetPushDirection();
+            playerMovement += pushDirection * pushFactor;
+
+        }
+
         characterController.Move(playerMovement * Time.fixedDeltaTime);
     }
 
@@ -95,5 +114,25 @@ public class Player : DamageableEntity
             jumpRequest = true;
             jumpsOnAir = 1;
         }
+    }
+
+    //Utility
+    
+    void OnControllerColliderHit(ControllerColliderHit hit){
+
+        GameObject hitObj = hit.gameObject;
+        MovingPlatform mp = hitObj.GetComponent<MovingPlatform>();
+
+        if(mp != null){            
+
+            isOnPlatform = true;
+            platformVelocity = mp.GetVelocity();
+
+        } else {
+
+            isOnPlatform = false;   
+
+        }
+
     }
 }
