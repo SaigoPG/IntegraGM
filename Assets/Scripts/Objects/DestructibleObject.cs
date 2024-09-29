@@ -6,7 +6,7 @@ public class DestructibleObject : MonoBehaviour, IDamageable, IDestroyable
 {
     [HideInInspector] public bool canTakeDamage { get; set; } = true;
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(int damage, Vector3 a)
     {
 
     }
