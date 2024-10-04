@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+[RequireComponent(typeof(Rigidbody))]
 public class TrapObject : MonoBehaviour, IAttacker
 {
     [SerializeField] private int damage;
@@ -20,7 +22,9 @@ public class TrapObject : MonoBehaviour, IAttacker
             print("Colisionando con jugador");
             Vector3 colPoint = collision.ClosestPoint(transform.position);
             attackNormal = transform.position - colPoint;
+
             Attack(collision.gameObject.GetComponent<IDamageable>());
+            
             
             return;
         }
@@ -36,5 +40,4 @@ public class TrapObject : MonoBehaviour, IAttacker
         }
 
     }
-
 }

@@ -69,7 +69,8 @@ public class Player : DamageableEntity
     private void HandleJump()
     {
         if (jumpRequest)
-        {
+        {   
+            
             fallVelocity = jumpForce;
             jumpRequest = false;
         }
@@ -135,4 +136,5 @@ public class Player : DamageableEntity
         }
 
     }
+    
 }
