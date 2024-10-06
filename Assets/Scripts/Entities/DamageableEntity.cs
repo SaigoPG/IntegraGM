@@ -13,7 +13,7 @@ public abstract class DamageableEntity : Entity
 
 
 
-    protected void SetGavity()
+    protected void SetGravity()
     {
         if (characterController.isGrounded)
         {
@@ -24,10 +24,10 @@ public abstract class DamageableEntity : Entity
             fallVelocity += gravity * Time.fixedDeltaTime;
         }
     }
-
+  
     protected override void Movement()
     {
-        SetGavity();
+        SetGravity();
     }
 
 }

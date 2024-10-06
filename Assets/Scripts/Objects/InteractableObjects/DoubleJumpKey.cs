@@ -17,6 +17,7 @@ public class DoubleJumpKey : InteractableObject
     public override void Interact()
     {
         player.doubleJump = true;
+        StopInteraction();
         Destroy(gameObject);
     }
 }

@@ -22,6 +22,8 @@ public class HealthManager : MonoBehaviour, IDamageable, IHealable, IDestroyable
         if (!canTakeDamage) return;
         isBeingAttacked = true;
         pushDirection = -dmgDirection;
+        pushDirection.z = 0;
+        pushDirection.y *= 20;
         currentHealth = Mathf.Clamp(currentHealth - amount, 0, maxHealth);       
         StartCoroutine(DamageFlickering());
         print(currentHealth);
