@@ -6,19 +6,22 @@ public class puertasllaves : MonoBehaviour
 {
     public bool isLocked = true;          
     public string requiredKey;            
-    public GameObject texto;             
+    public GameObject texto;              
     public GameObject textoNoKey;         
     private bool playerInRange;           
     private bool doorUnlocked = false;    
     private inventariollaves playerInventory; 
-
-    private Animator animator;            
+    public Dooranimation doorAnimationScript; 
 
     private void Start()
     {
-        animator = GetComponent<Animator>();
         texto.SetActive(false);           
         textoNoKey.SetActive(false);      
+
+        if (doorAnimationScript == null)
+        {
+            Debug.LogError("El script DoorAnimation no está asignado en puertasllaves.");
+        }
     }
 
     private void Update()
@@ -27,12 +30,11 @@ public class puertasllaves : MonoBehaviour
         {
             if (doorUnlocked)
             {
-                // Abrir la puerta si ya está desbloqueda
-                OpenDoor();
+                //script de la puerta para abrirla
+                doorAnimationScript.OpenDoor();
             }
             else
             {
-                // Intentar desbloquear la puerta si está bloqueada
                 TryUnlock();
             }
         }
@@ -40,20 +42,17 @@ public class puertasllaves : MonoBehaviour
 
     public void TryUnlock()
     {
-        // Verificar si la puerta está bloqueada y si el jugador tiene la llave correcta
         if (isLocked && playerInventory != null && playerInventory.HasKey(requiredKey))
         {
-            UnlockDoor();  // Desbloquear la puerta
+            UnlockDoor();  
             playerInventory.UseKey(requiredKey);
-
             FindObjectOfType<pistas>().JugadorInteraccion();
         }
         else
         {
             texto.SetActive(false);  
             textoNoKey.SetActive(true); 
-            StartCoroutine(HideNoKeyMessage());  // Ocultar mensaje después de unos segundos
-
+            StartCoroutine(HideNoKeyMessage()); 
             FindObjectOfType<pistas>().JugadorInteraccion();
         }
     }
@@ -62,24 +61,12 @@ public class puertasllaves : MonoBehaviour
     {
         isLocked = false;
         doorUnlocked = true;
-        Debug.Log("La puerta ha sido desbloqueada.");
         if (playerInRange)
         {
             texto.SetActive(true);
         }
     }
 
-    private void OpenDoor()
-    {
-        if (animator != null)
-        {
-            animator.SetTrigger("OpenDoor");  // Activar la animación de apertura
-        }
-        texto.SetActive(false);  
-        doorUnlocked = true;     
-    }
-
-    // Detectar cuando el jugador entra en el área del trigger
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -91,7 +78,6 @@ public class puertasllaves : MonoBehaviour
             {
                 texto.SetActive(true);  
             }
-            
         }
     }
 
@@ -101,7 +87,12 @@ public class puertasllaves : MonoBehaviour
         {
             texto.SetActive(false);  
             textoNoKey.SetActive(false);  
-            playerInRange = false;  
+            playerInRange = false;
+            
+            if (doorUnlocked)
+            {
+                doorAnimationScript.CloseDoor();
+            }
         }
     }
 
