@@ -16,7 +16,7 @@ public class TrollPlatform : Entity
         if(isPlayerChased){
 
             currPos = gameObject.transform.position;
-            gameObject.transform.position = Vector3.MoveTowards(currPos, objPos, -(movementSpeed * Time.deltaTime));  
+            gameObject.transform.position = Vector3.MoveTowards(currPos, objPos, -(movementSpeed * Time.fixedDeltaTime));  
 
         }
 
@@ -25,7 +25,7 @@ public class TrollPlatform : Entity
 
     void OnTriggerStay(Collider col){
 
-        if(col.gameObject.GetComponent<Player>() != null){
+        if(col.gameObject.GetComponent<ImPlayer>() != null){
 
             objPos = col.gameObject.transform.position;
 
@@ -41,7 +41,7 @@ public class TrollPlatform : Entity
 
     }
 
-    void Update(){
+    void FixedUpdate(){
 
         Movement();
 
