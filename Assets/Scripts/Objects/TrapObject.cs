@@ -3,14 +3,13 @@ using JetBrains.Annotations;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
-
 public class TrapObject : MonoBehaviour
 {
     [SerializeField] private int damage;
     [SerializeField] private int numberOfFlashes;
     [SerializeField] private float pushFactor;
-    private Vector3 attackNormal;   
-
+    private Vector3 attackNormal;
+    private CodeAudioEmitter codeEmitter;
     // public void Attack(IDamageable damagableEntity)
     // {
     //         damagableEntity.TakeDamage(damage, attackNormal);
@@ -42,6 +41,11 @@ public class TrapObject : MonoBehaviour
 
     // }
 
+    private void Awake()
+    {
+        codeEmitter = GetComponent<CodeAudioEmitter>();
+    }
+
     private void OnCollisionEnter(Collision col){
 
         ImPlayer player = col.gameObject.GetComponent<ImPlayer>();
@@ -54,7 +58,7 @@ public class TrapObject : MonoBehaviour
             //attackNormal = -attackNormal;
             player.GetComponent<Rigidbody>().velocity = new Vector3(0,0,0);
             player.SetExternalSpeed(new Vector3(-colPoint.x * pushFactor * 1/2, -colPoint.y * pushFactor, 0));
-
+            AudioManager.Instance.EmitEffect("PlayerDamageSound");
             if(player.GetHealth() > 0){
                 
                 StartCoroutine(DamageBlinker(player));

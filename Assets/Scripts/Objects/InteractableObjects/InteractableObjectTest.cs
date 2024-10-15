@@ -18,6 +18,7 @@ public class InteractableObjectTest : InteractableObject
 
     public override void Interact()
     {
+        soundEmitter.emitSound("InteractableTestSound");
         currentColorPosition = (currentColorPosition + 1) % rendererObjectColors.Length;
         rendererObject.material.color = rendererObjectColors[currentColorPosition];
     }
