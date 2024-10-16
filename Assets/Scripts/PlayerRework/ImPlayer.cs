@@ -166,8 +166,9 @@ public class ImPlayer : MonoBehaviour
 
         Debug.Log("Jump");
         
-        if(isGrounded || !isDoubleJumpSpent && hasDoubleJump){
+        if(isGrounded || (!isDoubleJumpSpent && hasDoubleJump)){
             isJumping = true;
+            AudioManager.Instance.EmitEffect("PlayerJumpSound");
             physChar.velocity = new Vector3(physChar.velocity.x,0,0);
             physChar.AddForce(Vector3.up * jumpHeight, ForceMode.Impulse);
             if(!isGrounded){isDoubleJumpSpent = true;}
@@ -258,7 +259,7 @@ public class ImPlayer : MonoBehaviour
     } 
     
     private IEnumerator Dash(){
-
+        AudioManager.Instance.EmitEffect("PlayerDashSound");
         hasDash = false;
         float localJump;
         if(isJumping){localJump = physChar.velocity.y;} else {localJump = 0;}
