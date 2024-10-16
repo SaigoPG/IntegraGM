@@ -1,20 +1,11 @@
 using UnityEngine;
-using FMODUnity;
-using FMOD.Studio;
 
-[RequireComponent(typeof(CodeAudioEmitter))]
 public abstract class InteractableObject : MonoBehaviour, IInteractable
 {
     private bool canInteract = false;
     private IInteractable interactIcon;
-    protected CodeAudioEmitter soundEmitter;
+
     protected bool active = true;
-
-    private void Awake()
-    {
-        soundEmitter = GetComponent<CodeAudioEmitter>();
-    }
-
     void Update()
     {
         if (!canInteract){return;}
@@ -51,5 +42,6 @@ public abstract class InteractableObject : MonoBehaviour, IInteractable
 
     public virtual void Interact()
     {
+        print("Boton presionado");
     }
 }

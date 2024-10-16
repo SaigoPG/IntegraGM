@@ -63,69 +63,6 @@ Transform:
   - {fileID: 8016254680981464771}
   m_Father: {fileID: 1968453384850004551}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &139725496527305727
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6780660249761174475}
-  - component: {fileID: 7107606177903035064}
-  m_Layer: 0
-  m_Name: InteractIconSound
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6780660249761174475
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 139725496527305727}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4380606916971049252}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7107606177903035064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 139725496527305727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1274207867
-      Data2: 1326582683
-      Data3: -981080688
-      Data4: -1512617563
-    Path: event:/Interacticon
-  Event: 
-  EventPlayTrigger: 0
-  EventStopTrigger: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &160025317752344385
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,8 +264,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1604763688726009759}
   - component: {fileID: 3940630391575299728}
+  - component: {fileID: 4912855760515810877}
   - component: {fileID: 3446195848055704433}
-  - component: {fileID: 2677197012034290779}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -402,6 +339,14 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!81 &4912855760515810877
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285805665279671176}
+  m_Enabled: 1
 --- !u!114 &3446195848055704433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -436,20 +381,6 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &2677197012034290779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 285805665279671176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nonRigidbodyVelocity: 0
-  attenuationObject: {fileID: 0}
 --- !u!1 &295678890363179181
 GameObject:
   m_ObjectHideFlags: 0
@@ -809,7 +740,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4380606916971049252}
   - component: {fileID: 5894926357250800838}
-  - component: {fileID: 5190460893486601738}
   m_Layer: 0
   m_Name: ETestPivot
   m_TagString: Untagged
@@ -831,7 +761,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3507618409978804675}
-  - {fileID: 6780660249761174475}
   m_Father: {fileID: 7770739841272845520}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5894926357250800838
@@ -847,20 +776,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationTime: 0.2
---- !u!114 &5190460893486601738
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1538770184775032232}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e152ebb1b73fdfe4a9930cb724284762, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  soundTags:
-  - InteractIconSound
 --- !u!1 &1648226263893774842
 GameObject:
   m_ObjectHideFlags: 0
@@ -1396,21 +1311,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 10
   movementSpeed: 6
-  dashSpeed: 0
   jumpHeight: 8
   groundThreshold: 1.13
-  wallThreshold: 0
   isGrounded: 0
-  isAgainstWall: 0
   isJumping: 0
-  isDashing: 0
   isOnPlatform: 0
   isDoubleJumpSpent: 0
   isGettingHurt: 0
   canTakeDamage: 0
   externalSpeed: {x: 0, y: 0, z: 0}
   hasDoubleJump: 0
-  hasDash: 0
 --- !u!54 &6210265279709861406
 Rigidbody:
   m_ObjectHideFlags: 0
