@@ -1,4 +1,3 @@
-using FMOD.Studio;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +6,7 @@ public class Door : InteractableObject
 {
     [SerializeField] private float animationTime = 0.5f;
     [SerializeField] private Collider doorCollider;
+
     private const float doorRotation = 80;
     private int playerDirection;
     private Coroutine currentCorroutine;
@@ -16,7 +16,7 @@ public class Door : InteractableObject
         base.OnTriggerEnter(collision);
         if (collision.gameObject.CompareTag("Player") && active)
         {
-            playerDirection = ((collision.transform.position.x - transform.position.x) > 0) ? 1 : -1;
+            playerDirection = ((collision.transform.position.x - transform.position.x) > 0) ? 1: -1 ;
         }
         else if (collision.gameObject.CompareTag("Player"))
         {
@@ -36,7 +36,7 @@ public class Door : InteractableObject
 
     public override void Interact()
     {
-        soundEmitter.emitSound("OpenDoorSound");
+        
         StopInteraction();
         StartCoroutine(OpeningDoor());
     }
@@ -55,6 +55,5 @@ public class Door : InteractableObject
         LeanTween.rotateY(gameObject, 0, animationTime).setEaseOutExpo();
         doorCollider.enabled = true;
         active = true;
-        soundEmitter.emitSound("CloseDoorSound");
     }
 }

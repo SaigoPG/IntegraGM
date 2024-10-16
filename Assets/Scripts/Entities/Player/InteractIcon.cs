@@ -2,17 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(CodeAudioEmitter))]
 public class InteractIcon : MonoBehaviour, IInteractable
 {
     [SerializeField] private float animationTime = 0.2f;
 
     private bool visible = false;
-    private CodeAudioEmitter soundEmitter;
     void Start()
     {
-        transform.localScale = new Vector3(0, 0, 1);
-        soundEmitter = GetComponent<CodeAudioEmitter>();
+        transform.localScale = new Vector3(0,0,1);
     }
 
     public void Interact()
@@ -28,7 +25,6 @@ public class InteractIcon : MonoBehaviour, IInteractable
         {
             LeanTween.scaleX(gameObject, 1, animationTime).setEaseOutExpo();
             LeanTween.scaleY(gameObject, 1, animationTime).setEaseOutExpo();
-            soundEmitter.emitSound("InteractIconSound");
         }
         else
         {
