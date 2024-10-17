@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.Scripting.APIUpdating;
+
 
 public class ImPlayer : MonoBehaviour
 {
@@ -28,6 +28,7 @@ public class ImPlayer : MonoBehaviour
     [Header("Key Objects Checks")]
     [SerializeField] private bool hasDoubleJump;
     [SerializeField] private bool hasDash;
+    [SerializeField] private bool hasDoorKey;
 
     //Refs
 
@@ -47,6 +48,18 @@ public class ImPlayer : MonoBehaviour
     public void SetDashKey(bool dashKeyStatus){
 
         hasDash = dashKeyStatus;
+
+    }
+
+    public void SetDoorKey(bool doorKeyStatus){
+
+        hasDoorKey = doorKeyStatus;
+
+    }
+
+    public bool GetDoorKey(){
+
+        return hasDoorKey;
 
     }
 

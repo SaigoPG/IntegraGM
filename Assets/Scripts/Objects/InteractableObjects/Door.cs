@@ -6,17 +6,27 @@ public class Door : InteractableObject
 {
     [SerializeField] private float animationTime = 0.5f;
     [SerializeField] private Collider doorCollider;
+    [SerializeField] private bool isLocked;
+    [SerializeField] private GameObject lockedText;
+    [SerializeField] private GameObject unlockedText;
 
     private const float doorRotation = 80;
     private int playerDirection;
     private Coroutine currentCorroutine;
 
+    private ImPlayer plRef;
+
     protected override void OnTriggerEnter(Collider collision)
     {
-        base.OnTriggerEnter(collision);
+        base.OnTriggerEnter(collision);   
+
+        plRef = collision.gameObject.GetComponent<ImPlayer>();
+
         if (collision.gameObject.CompareTag("Player") && active)
         {
+            if(isLocked && !plRef.GetDoorKey()){lockedText.SetActive(true);}
             playerDirection = ((collision.transform.position.x - transform.position.x) > 0) ? 1: -1 ;
+            
         }
         else if (collision.gameObject.CompareTag("Player"))
         {
@@ -32,13 +42,21 @@ public class Door : InteractableObject
         {
             currentCorroutine = StartCoroutine(ClosingDoor());
         }
+        plRef = null;
+        lockedText.SetActive(false);
+        unlockedText.SetActive(false);
     }
 
     public override void Interact()
-    {
-        
-        StopInteraction();
-        StartCoroutine(OpeningDoor());
+    {      
+        if((!isLocked) || (isLocked && plRef.GetDoorKey())){
+            StopInteraction();
+            StartCoroutine(OpeningDoor());
+        } else {
+
+            lockedText.SetActive(true);
+
+        }
     }
 
     private IEnumerator OpeningDoor()

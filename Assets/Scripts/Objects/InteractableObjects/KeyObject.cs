@@ -1,10 +1,17 @@
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
-public class KeyObject : InteractableObject
-{    
+enum AbilitiesGranted{
 
-    [SerializeField] bool grantsDoubleJump;
-    [SerializeField] bool grantsDash;
+    DoubleJump,
+    Dash,
+    DoorKey
+
+}
+
+public class KeyObject : InteractableObject{
+
+    [SerializeField] private AbilitiesGranted abilities;
 
     private ImPlayer player;
 
@@ -19,22 +26,41 @@ public class KeyObject : InteractableObject
         }
     }
 
-    public override void Interact(){
-        if(grantsDoubleJump){
+    public override void Interact(){        
 
-            player.SetJumpKey(true);
-            StopInteraction();
-            Destroy(gameObject);
+        switch(abilities){
+
+            case AbilitiesGranted.DoubleJump:
+
+                player.SetJumpKey(true);
+                StopInteraction();
+                Destroy(gameObject);
+
+                break;
+
+            case AbilitiesGranted.Dash:
+
+                player.SetDashKey(true);
+                StopInteraction();
+                Destroy(gameObject);
+
+                break;
+
+            case AbilitiesGranted.DoorKey:
+
+                player.SetDoorKey(true);
+                StopInteraction();
+                Destroy(gameObject);
+
+                break;
+            
+            default:
+
+                Debug.Log("InteractableErr");
+
+                break;
 
         }
-
-        if(grantsDash){
-
-            player.SetDashKey(true);
-            StopInteraction();
-            Destroy(gameObject);
-
-        }       
 
     }
 }
