@@ -282,7 +282,7 @@ Transform:
   m_GameObject: {fileID: 285805665279671176}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.6800003, y: 1.77, z: -7}
+  m_LocalPosition: {x: -3.6800003, y: 1.7700005, z: -7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1239,6 +1239,7 @@ GameObject:
   - component: {fileID: 6210265279709861406}
   - component: {fileID: 4038501118429895056}
   - component: {fileID: 7048642303171876950}
+  - component: {fileID: 1448117112624589476}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1311,16 +1312,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 10
   movementSpeed: 6
+  dashSpeed: 0
   jumpHeight: 8
   groundThreshold: 1.13
+  wallThreshold: 0
   isGrounded: 0
+  isAgainstWall: 0
   isJumping: 0
+  isDashing: 0
   isOnPlatform: 0
   isDoubleJumpSpent: 0
   isGettingHurt: 0
   canTakeDamage: 0
   externalSpeed: {x: 0, y: 0, z: 0}
   hasDoubleJump: 0
+  hasDash: 0
 --- !u!54 &6210265279709861406
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1401,6 +1407,19 @@ CapsuleCollider:
   m_Height: 2.25
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1448117112624589476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3607049901136868737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7904150c41bf645368e44765032a04cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keys: []
 --- !u!1 &3913967860311636728
 GameObject:
   m_ObjectHideFlags: 0
@@ -2279,7 +2298,7 @@ Transform:
   m_GameObject: {fileID: 6813121843246551290}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.6800003, y: 1.77, z: -7}
+  m_LocalPosition: {x: -3.6800003, y: 1.7700005, z: -7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
