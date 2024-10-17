@@ -55,15 +55,6 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Look"",
-                    ""type"": ""Value"",
-                    ""id"": ""63bd4923-56ff-48cf-9169-cb018672f40b"",
-                    ""expectedControlType"": ""Vector2"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": true
-                },
-                {
                     ""name"": ""Dash"",
                     ""type"": ""Button"",
                     ""id"": ""f878eb08-73f3-427f-ab2e-0d42196a394a"",
@@ -174,61 +165,6 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""2D Vector"",
-                    ""id"": ""8bc17242-af3f-473c-a070-02c98b338a9a"",
-                    ""path"": ""2DVector"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Look"",
-                    ""isComposite"": true,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""up"",
-                    ""id"": ""fef6269f-17de-404a-a087-55d0950b6e26"",
-                    ""path"": ""<Keyboard>/upArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Look"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""down"",
-                    ""id"": ""7a5dfa1c-af64-4363-adba-698d369308f7"",
-                    ""path"": ""<Keyboard>/downArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Look"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
-                    ""id"": ""038bfab8-554e-4956-a953-76dad4d0493a"",
-                    ""path"": ""<Keyboard>/leftArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Look"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""right"",
-                    ""id"": ""b91c2992-c218-41da-8a56-e3df282bf6a4"",
-                    ""path"": ""<Keyboard>/rightArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Look"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
                     ""name"": """",
                     ""id"": ""a18abfd0-e1c0-4939-8ebc-354baf37ea74"",
                     ""path"": ""<Keyboard>/shift"",
@@ -249,7 +185,6 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         m_Land_Jump = m_Land.FindAction("Jump", throwIfNotFound: true);
         m_Land_Move = m_Land.FindAction("Move", throwIfNotFound: true);
         m_Land_Interact = m_Land.FindAction("Interact", throwIfNotFound: true);
-        m_Land_Look = m_Land.FindAction("Look", throwIfNotFound: true);
         m_Land_Dash = m_Land.FindAction("Dash", throwIfNotFound: true);
     }
 
@@ -315,7 +250,6 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
     private readonly InputAction m_Land_Jump;
     private readonly InputAction m_Land_Move;
     private readonly InputAction m_Land_Interact;
-    private readonly InputAction m_Land_Look;
     private readonly InputAction m_Land_Dash;
     public struct LandActions
     {
@@ -324,7 +258,6 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         public InputAction @Jump => m_Wrapper.m_Land_Jump;
         public InputAction @Move => m_Wrapper.m_Land_Move;
         public InputAction @Interact => m_Wrapper.m_Land_Interact;
-        public InputAction @Look => m_Wrapper.m_Land_Look;
         public InputAction @Dash => m_Wrapper.m_Land_Dash;
         public InputActionMap Get() { return m_Wrapper.m_Land; }
         public void Enable() { Get().Enable(); }
@@ -344,9 +277,6 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @Interact.started += instance.OnInteract;
             @Interact.performed += instance.OnInteract;
             @Interact.canceled += instance.OnInteract;
-            @Look.started += instance.OnLook;
-            @Look.performed += instance.OnLook;
-            @Look.canceled += instance.OnLook;
             @Dash.started += instance.OnDash;
             @Dash.performed += instance.OnDash;
             @Dash.canceled += instance.OnDash;
@@ -363,9 +293,6 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @Interact.started -= instance.OnInteract;
             @Interact.performed -= instance.OnInteract;
             @Interact.canceled -= instance.OnInteract;
-            @Look.started -= instance.OnLook;
-            @Look.performed -= instance.OnLook;
-            @Look.canceled -= instance.OnLook;
             @Dash.started -= instance.OnDash;
             @Dash.performed -= instance.OnDash;
             @Dash.canceled -= instance.OnDash;
@@ -391,7 +318,6 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         void OnJump(InputAction.CallbackContext context);
         void OnMove(InputAction.CallbackContext context);
         void OnInteract(InputAction.CallbackContext context);
-        void OnLook(InputAction.CallbackContext context);
         void OnDash(InputAction.CallbackContext context);
     }
 }
