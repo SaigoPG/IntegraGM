@@ -1312,10 +1312,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 10
   movementSpeed: 6
-  dashSpeed: 0
+  dashSpeed: 8
   jumpHeight: 8
-  groundThreshold: 1.13
-  wallThreshold: 0
+  groundThreshold: 1.5
+  wallThreshold: 0.55
   isGrounded: 0
   isAgainstWall: 0
   isJumping: 0
@@ -1327,6 +1327,7 @@ MonoBehaviour:
   externalSpeed: {x: 0, y: 0, z: 0}
   hasDoubleJump: 0
   hasDash: 0
+  hasDoorKey: 0
 --- !u!54 &6210265279709861406
 Rigidbody:
   m_ObjectHideFlags: 0

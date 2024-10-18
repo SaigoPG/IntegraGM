@@ -249,7 +249,6 @@ public class ImPlayer : MonoBehaviour
         pc = new PlayerControls();
         physChar = GetComponent<Rigidbody>();
         charAnimator = GetComponent<PlayerAnimator>();
-        hasDoubleJump = false;
         canTakeDamage = true;
         isGettingHurt = false;
 
