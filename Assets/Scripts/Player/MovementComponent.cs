@@ -1,70 +1,58 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
-[RequireComponent(typeof(CharacterController))]
+[RequireComponent(typeof(Rigidbody))]
 public class MovementComponent : MonoBehaviour
 {
-    private CharacterController characterController;
+    private Rigidbody rb;
 
     public float movementSpeed = 10f;
     [SerializeField] private float jumpForce = 30f;
-    [SerializeField] public float gravity = 100f;
     [SerializeField] private float raycastSize = 1.1f;
     [SerializeField] private float coyoteTime = 0.2f;
     public bool canMove = true;
     public bool canTakeInputs = true;
 
     [HideInInspector] public float moveInput;
-    [HideInInspector] public bool onAir {  get; private set; }
+    [HideInInspector] public bool onAir { get; private set; }
 
     private bool jumpRequest = false;
     public Vector3 playerMovement;
-    public float fallVelocity { get; private set; } = 0;
+    public Vector3 externalVelocity = Vector3.zero;
+    private Coroutine coyoteCoroutine;
+    public bool onMobilePlatform = false;
 
-    Coroutine coyoteCoroutine;
 
     private void Awake()
     {
-        characterController = GetComponent<CharacterController>();
+        rb = GetComponent<Rigidbody>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (!canMove) return;
-        if (coyoteCoroutine == null && !onAir && !characterController.isGrounded) StartCoyoteCoroutine();
-        if (coyoteCoroutine != null && onAir) CancelCoyoteCoroutine();
-        if (onAir && characterController.isGrounded) onAir = false;
 
-        SetGavity();
-        Jump();
-        HandleHeadCollisions();
+        if (coyoteCoroutine == null && !onAir && !IsGrounded()) StartCoyoteCoroutine();
+        if (coyoteCoroutine != null && onAir) CancelCoyoteCoroutine();
+        if (onAir && IsGrounded()) onAir = false;
+        if (!onMobilePlatform) rb.velocity = new Vector3(0, rb.velocity.y, 0);
+        else rb.velocity = Vector3.zero;
         if (canTakeInputs) Move();
-        playerMovement.y = fallVelocity;
-        characterController.Move(playerMovement * Time.deltaTime);
+        Jump();
+        rb.MovePosition(rb.position + (playerMovement + externalVelocity) * Time.fixedDeltaTime);
     }
 
     private void Move()
     {
-        playerMovement.x = moveInput * movementSpeed;
+        playerMovement = new Vector3(moveInput * movementSpeed, 0, 0);
     }
-    private void SetGavity()
-    {
-        if (!onAir)
-        {
-            fallVelocity = -gravity * Time.deltaTime;
-        }
-        else
-        {
-            fallVelocity += -gravity * Time.deltaTime;
-        }
-    }
+
     private void Jump()
     {
         if (jumpRequest)
         {
-            fallVelocity = jumpForce;
+            onMobilePlatform = false;
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             jumpRequest = false;
             onAir = true;
         }
@@ -82,35 +70,24 @@ public class MovementComponent : MonoBehaviour
         else if (onAir && !onFloorJump) jumpRequest = true;
     }
 
-    private void HandleHeadCollisions()
+    private bool IsGrounded()
     {
-        Ray ray = new Ray(transform.position, Vector3.up * raycastSize);
-        Debug.DrawRay(ray.origin, ray.direction * raycastSize);
-        RaycastHit[] hits = Physics.RaycastAll(ray, raycastSize);
-        if (hits.Length == 0) return;
-        foreach (RaycastHit hit in hits)
-        {
-            if (hit.transform.gameObject.CompareTag("Ground"))
-            {
-                fallVelocity = -gravity * Time.fixedDeltaTime;
-                break;
-            }
-        }
+        return Physics.Raycast(transform.position, Vector3.down, raycastSize);
     }
 
-    IEnumerator CoyoteTimeProcess()
+    private IEnumerator CoyoteTimeProcess()
     {
         yield return new WaitForSeconds(coyoteTime);
         onAir = true;
     }
 
-    void CancelCoyoteCoroutine()
+    private void CancelCoyoteCoroutine()
     {
-            StopCoroutine(coyoteCoroutine);
-            coyoteCoroutine = null;
+        StopCoroutine(coyoteCoroutine);
+        coyoteCoroutine = null;
     }
 
-    void StartCoyoteCoroutine()
+    private void StartCoyoteCoroutine()
     {
         coyoteCoroutine = StartCoroutine(CoyoteTimeProcess());
     }

@@ -1,182 +1,198 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Unity\\ReReProto\\",
+  "WorkspaceRootPath": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|d:\\unity\\rereproto\\assets\\scripts\\player\\healthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\healthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Entities\\Player\\InteractIconO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Entities\\Player\\InteractIconO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|d:\\unity\\rereproto\\assets\\scripts\\firstperson\\interactableobjectsfp\\lockdoorfp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\firstperson\\interactableobjectsfp\\lockdoorfp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Entities\\Player\\ImPlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Entities\\Player\\ImPlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\firstperson\\interactableobjectsfp\\interactableswitchfp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\firstperson\\interactableobjectsfp\\interactableswitchfp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Entities\\Player\\PlayerAnimatorO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Entities\\Player\\PlayerAnimatorO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\objects\\notinteractableobjects\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\notinteractableobjects\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Player\\PlayerAnimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player\\PlayerAnimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\singletons\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\singletons\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\A\\nivel1\\ChangeToMain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\A\\nivel1\\ChangeToMain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\ui\\menus\\menus\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\menus\\menus\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\FirstPerson\\Player\\PlayerFP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\FirstPerson\\Player\\PlayerFP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\ui\\menus\\menus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\menus\\menus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\SlideMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\firstperson\\player\\playerfp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\firstperson\\player\\playerfp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\ImageChanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\SlideMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\UI\\Menus\\Menus\\SlideMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\firstperson\\player\\raycastinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\firstperson\\player\\raycastinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\ui\\menus\\manager\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\menus\\manager\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\ui\\menus\\manager\\menuorganizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\menus\\manager\\menuorganizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\ImageChanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\UI\\ImageChanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\ReReProto\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\GUIGame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\UI\\GUIGame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\GUIGame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5140C70-855A-1A9F-609E-0121A29CFEFC}|FMODUnity.csproj|D:\\Unity\\ReReProto\\assets\\plugins\\fmod\\src\\runtimemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5140C70-855A-1A9F-609E-0121A29CFEFC}|FMODUnity.csproj|solutionrelative:assets\\plugins\\fmod\\src\\runtimemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\ReReProto\\Assets\\Scripts\\FirstPerson\\New Folder\\DoorFP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\audios\\codeaudioemitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audios\\codeaudioemitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\ReReProto\\Assets\\Scripts\\Platforms\\ParentChanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\singletons\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\singletons\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\ReReProto\\Assets\\Scripts\\Player\\PlayerTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\audios\\audioorganizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audios\\audioorganizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\ReReProto\\Assets\\Scripts\\FirstPerson\\New Folder\\LockDoorFP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\objects\\interactableobjects\\lockdoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\interactableobjects\\lockdoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\firstperson\\interactableobjectsfp\\doorfp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\firstperson\\interactableobjectsfp\\doorfp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\ReReProto\\Assets\\Scripts\\FirstPerson\\New Folder\\DoorFP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\FirstPerson\\New Folder\\DoorFP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\objects\\notinteractableobjects\\rotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\notinteractableobjects\\rotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\objects\\notinteractableobjects\\notinteractableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\notinteractableobjects\\notinteractableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\platforms\\mobileplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platforms\\mobileplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\firstperson\\interactableobjectsfp\\graspableobjectkeyfp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\firstperson\\interactableobjectsfp\\graspableobjectkeyfp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\objects\\interactableobjects\\interactableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\interactableobjects\\interactableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\objects\\interactableobjects\\graspableobjectkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\interactableobjects\\graspableobjectkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\platforms\\destructibleplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platforms\\destructibleplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\ReReProto\\Assets\\Scripts\\Platforms\\ParentChanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Platforms\\ParentChanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\objects\\trapobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\trapobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\objects\\graspableobjects\\powerups\\powerupbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\graspableobjects\\powerups\\powerupbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\objects\\graspableobjects\\powerups\\dashpowerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\graspableobjects\\powerups\\dashpowerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\objects\\graspableobjects\\powerups\\airjumppowerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\graspableobjects\\powerups\\airjumppowerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|D:\\Unity\\ReReProto\\assets\\scripts\\objects\\graspableobjects\\graspableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1588E6E-9430-2BF0-ECE3-CFBBB8E3E0CA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\graspableobjects\\graspableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\ReReProto\\Assets\\Scripts\\Player\\PlayerTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player\\PlayerTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\ReReProto\\Assets\\Scripts\\FirstPerson\\New Folder\\LockDoorFP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\FirstPerson\\New Folder\\LockDoorFP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\ReReProto\\Library\\PackageCache\\com.unity.inputsystem@1.11.1\\InputSystem\\Utilities\\DelegateHelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Library\\PackageCache\\com.unity.inputsystem@1.11.1\\InputSystem\\Utilities\\DelegateHelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.inputsystem@1.11.1\\InputSystem\\Utilities\\DelegateHelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\Pause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\UI\\Menus\\Menus\\Pause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\Pause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\InGameMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\UI\\Menus\\Menus\\InGameMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\InGameMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\InGame\\InGameMenuFP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\UI\\Menus\\Menus\\InGame\\InGameMenuFP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\InGame\\InGameMenuFP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\FadeMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\UI\\Menus\\Menus\\FadeMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\FadeMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\BaseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\UI\\Menus\\Menus\\BaseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\BaseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Player\\MovementComponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player\\MovementComponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\InteractableObjects\\Door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Objects\\InteractableObjects\\Door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Player\\Healthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player\\Healthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Manager\\MenuOrganizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\UI\\Menus\\Manager\\MenuOrganizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\PauseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\UI\\Menus\\Menus\\PauseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\UI\\Menus\\Menus\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Singletons\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Singletons\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Audios\\CodeAudioEmitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Audios\\CodeAudioEmitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Plugins\\FMOD\\src\\RuntimeManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Plugins\\FMOD\\src\\RuntimeManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Audios\\AudioOrganizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Audios\\AudioOrganizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Singletons\\AudioManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Singletons\\AudioManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Manager\\MenuManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\UI\\Menus\\Manager\\MenuManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\InteractableObjects\\LockDoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Objects\\InteractableObjects\\LockDoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\LockDoorFP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\LockDoorFP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\NotInteractableObjects\\Rotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Objects\\NotInteractableObjects\\Rotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\NotInteractableObjects\\Slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Objects\\NotInteractableObjects\\Slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\InteractableSwitchFP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\InteractableSwitchFP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\NotInteractableObjects\\NotInteractableObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Objects\\NotInteractableObjects\\NotInteractableObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\DoorFP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\DoorFP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\GraspableObjectKeyFP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\GraspableObjectKeyFP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\FirstPerson\\Player\\RaycastInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\FirstPerson\\Player\\RaycastInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Platforms\\MobilePlatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Platforms\\MobilePlatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\TrapObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Objects\\TrapObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Platforms\\DestructiblePlatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Platforms\\DestructiblePlatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\GraspableObjects\\PowerUps\\AirJumpPowerUp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Objects\\GraspableObjects\\PowerUps\\AirJumpPowerUp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\GraspableObjects\\PowerUps\\DashPowerUp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Objects\\GraspableObjects\\PowerUps\\DashPowerUp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\GraspableObjects\\PowerUps\\PowerUpBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Objects\\GraspableObjects\\PowerUps\\PowerUpBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\InteractableObjects\\GraspableObjectKey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Objects\\InteractableObjects\\GraspableObjectKey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\GraspableObjects\\GraspableObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Objects\\GraspableObjects\\GraspableObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Player\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\InteractableObjects\\InteractableObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Objects\\InteractableObjects\\InteractableObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -186,19 +202,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Healthmanager.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Player\\Healthmanager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Healthmanager.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Player\\Healthmanager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\Healthmanager.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBYAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ImPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Entities\\Player\\ImPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Entities\\Player\\ImPlayer.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Entities\\Player\\ImPlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Entities\\Player\\ImPlayer.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACQAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T01:40:03.86Z",
+              "WhenOpened": "2024-10-29T15:33:44.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InteractIconO.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Entities\\Player\\InteractIconO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Entities\\Player\\InteractIconO.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Entities\\Player\\InteractIconO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Entities\\Player\\InteractIconO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T15:33:29.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerAnimatorO.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Entities\\Player\\PlayerAnimatorO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Entities\\Player\\PlayerAnimatorO.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Entities\\Player\\PlayerAnimatorO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Entities\\Player\\PlayerAnimatorO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T15:33:20.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChangeToMain.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\A\\nivel1\\ChangeToMain.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\A\\nivel1\\ChangeToMain.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\A\\nivel1\\ChangeToMain.cs",
+              "RelativeToolTip": "Assets\\Scripts\\A\\nivel1\\ChangeToMain.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T15:29:06.886Z",
               "EditorCaption": ""
             },
             {
@@ -207,22 +262,69 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
+              "Title": "MovementComponent.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Player\\MovementComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\MovementComponent.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Player\\MovementComponent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\MovementComponent.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCUAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T16:46:10.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerAnimator.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Player\\PlayerAnimator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerAnimator.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Player\\PlayerAnimator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerAnimator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T23:21:16.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Door.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\InteractableObjects\\Door.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\InteractableObjects\\Door.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\InteractableObjects\\Door.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Objects\\InteractableObjects\\Door.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T01:25:38.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Healthmanager.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Player\\Healthmanager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Healthmanager.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Player\\Healthmanager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Healthmanager.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAEAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T01:40:03.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "SlideMenu.cs",
               "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\SlideMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Menus\\Menus\\SlideMenu.cs",
               "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\SlideMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\Menus\\Menus\\SlideMenu.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T15:19:48.425Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
               "Title": "MenuOrganizer.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Manager\\MenuOrganizer.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Manager\\MenuOrganizer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Menus\\Manager\\MenuOrganizer.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Manager\\MenuOrganizer.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Manager\\MenuOrganizer.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\Menus\\Manager\\MenuOrganizer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -230,11 +332,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 8,
               "Title": "Image.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Image.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Image.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Image.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Image.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Image.cs",
               "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Image.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -242,22 +344,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
               "Title": "ImageChanger.cs",
               "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\ImageChanger.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ImageChanger.cs",
               "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\ImageChanger.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\ImageChanger.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T05:00:01.954Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 14,
               "Title": "DelegateHelpers.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Library\\PackageCache\\com.unity.inputsystem@1.11.1\\InputSystem\\Utilities\\DelegateHelpers.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Library\\PackageCache\\com.unity.inputsystem@1.11.1\\InputSystem\\Utilities\\DelegateHelpers.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.inputsystem@1.11.1\\InputSystem\\Utilities\\DelegateHelpers.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Library\\PackageCache\\com.unity.inputsystem@1.11.1\\InputSystem\\Utilities\\DelegateHelpers.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Library\\PackageCache\\com.unity.inputsystem@1.11.1\\InputSystem\\Utilities\\DelegateHelpers.cs",
               "RelativeToolTip": "Library\\PackageCache\\com.unity.inputsystem@1.11.1\\InputSystem\\Utilities\\DelegateHelpers.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAswDMAAACAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -265,94 +365,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 16,
               "Title": "InGameMenu.cs",
               "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\InGameMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Menus\\Menus\\InGameMenu.cs",
               "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\InGameMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\Menus\\Menus\\InGameMenu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T04:28:56.454Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 15,
               "Title": "Pause.cs",
               "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\Pause.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Menus\\Menus\\Pause.cs",
               "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\Pause.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\Menus\\Menus\\Pause.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T04:24:26.137Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 13,
               "Title": "LockDoorFP.cs",
               "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\FirstPerson\\New Folder\\LockDoorFP.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\FirstPerson\\New Folder\\LockDoorFP.cs",
               "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\FirstPerson\\New Folder\\LockDoorFP.cs",
-              "RelativeToolTip": "Assets\\Scripts\\FirstPerson\\New Folder\\LockDoorFP.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T18:52:51.375Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 11,
               "Title": "ParentChanger.cs",
               "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Platforms\\ParentChanger.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Platforms\\ParentChanger.cs",
               "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Platforms\\ParentChanger.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Platforms\\ParentChanger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T13:52:56.783Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 12,
               "Title": "PlayerTest.cs",
               "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Player\\PlayerTest.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerTest.cs",
               "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Player\\PlayerTest.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerTest.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAewEkAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T05:06:51.672Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 9,
               "Title": "GUIGame.cs",
               "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\GUIGame.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\GUIGame.cs",
               "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\GUIGame.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\GUIGame.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T04:59:09.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 17,
               "Title": "InGameMenuFP.cs",
               "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\InGame\\InGameMenuFP.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Menus\\Menus\\InGame\\InGameMenuFP.cs",
               "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\InGame\\InGameMenuFP.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\Menus\\Menus\\InGame\\InGameMenuFP.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T04:49:32.037Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 24,
               "Title": "PauseMenu.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\PauseMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\PauseMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Menus\\Menus\\PauseMenu.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\PauseMenu.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\PauseMenu.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\Menus\\Menus\\PauseMenu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -360,11 +446,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 25,
               "Title": "MainMenu.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Menus\\Menus\\MainMenu.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\MainMenu.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\Menus\\Menus\\MainMenu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -372,47 +458,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 18,
               "Title": "FadeMenu.cs",
               "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\FadeMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Menus\\Menus\\FadeMenu.cs",
               "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\FadeMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\Menus\\Menus\\FadeMenu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T04:22:19.704Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 19,
               "Title": "BaseMenu.cs",
               "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\BaseMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Menus\\Menus\\BaseMenu.cs",
               "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Menus\\BaseMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\Menus\\Menus\\BaseMenu.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T04:21:57.49Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 26,
               "Title": "GameManager.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Singletons\\GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Singletons\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Singletons\\GameManager.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Singletons\\GameManager.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Singletons\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Singletons\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwC0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwCIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T04:11:39.854Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 27,
               "Title": "CodeAudioEmitter.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Audios\\CodeAudioEmitter.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Audios\\CodeAudioEmitter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Audios\\CodeAudioEmitter.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Audios\\CodeAudioEmitter.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Audios\\CodeAudioEmitter.cs",
               "RelativeToolTip": "Assets\\Scripts\\Audios\\CodeAudioEmitter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -420,11 +502,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 28,
               "Title": "RuntimeManager.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Plugins\\FMOD\\src\\RuntimeManager.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Plugins\\FMOD\\src\\RuntimeManager.cs",
               "RelativeDocumentMoniker": "Assets\\Plugins\\FMOD\\src\\RuntimeManager.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Plugins\\FMOD\\src\\RuntimeManager.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Plugins\\FMOD\\src\\RuntimeManager.cs",
               "RelativeToolTip": "Assets\\Plugins\\FMOD\\src\\RuntimeManager.cs",
               "ViewState": "AgIAAAcFAAAAAAAAAAAwwBwFAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -432,11 +514,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 29,
               "Title": "AudioOrganizer.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Audios\\AudioOrganizer.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Audios\\AudioOrganizer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Audios\\AudioOrganizer.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Audios\\AudioOrganizer.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Audios\\AudioOrganizer.cs",
               "RelativeToolTip": "Assets\\Scripts\\Audios\\AudioOrganizer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -444,11 +526,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 30,
               "Title": "AudioManager.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Singletons\\AudioManager.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Singletons\\AudioManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Singletons\\AudioManager.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Singletons\\AudioManager.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Singletons\\AudioManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Singletons\\AudioManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -456,11 +538,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 31,
               "Title": "MenuManager.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Manager\\MenuManager.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Manager\\MenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Menus\\Manager\\MenuManager.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Manager\\MenuManager.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\UI\\Menus\\Manager\\MenuManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\Menus\\Manager\\MenuManager.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAwwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -468,11 +550,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 32,
               "Title": "LockDoor.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Objects\\InteractableObjects\\LockDoor.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\InteractableObjects\\LockDoor.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\InteractableObjects\\LockDoor.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Objects\\InteractableObjects\\LockDoor.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\InteractableObjects\\LockDoor.cs",
               "RelativeToolTip": "Assets\\Scripts\\Objects\\InteractableObjects\\LockDoor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -480,48 +562,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 33,
               "Title": "LockDoorFP.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\LockDoorFP.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\LockDoorFP.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\LockDoorFP.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\LockDoorFP.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\LockDoorFP.cs",
               "RelativeToolTip": "Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\LockDoorFP.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T22:44:41.348Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T22:44:41.348Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 34,
               "Title": "Rotator.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Objects\\NotInteractableObjects\\Rotator.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\NotInteractableObjects\\Rotator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\NotInteractableObjects\\Rotator.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Objects\\NotInteractableObjects\\Rotator.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\NotInteractableObjects\\Rotator.cs",
               "RelativeToolTip": "Assets\\Scripts\\Objects\\NotInteractableObjects\\Rotator.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCYAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAuwCYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T21:04:03.273Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 35,
               "Title": "Slider.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Objects\\NotInteractableObjects\\Slider.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\NotInteractableObjects\\Slider.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\NotInteractableObjects\\Slider.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Objects\\NotInteractableObjects\\Slider.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\NotInteractableObjects\\Slider.cs",
               "RelativeToolTip": "Assets\\Scripts\\Objects\\NotInteractableObjects\\Slider.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T20:48:48.18Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 36,
               "Title": "InteractableSwitchFP.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\InteractableSwitchFP.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\InteractableSwitchFP.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\InteractableSwitchFP.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\InteractableSwitchFP.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\InteractableSwitchFP.cs",
               "RelativeToolTip": "Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\InteractableSwitchFP.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -529,35 +610,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 37,
               "Title": "NotInteractableObject.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Objects\\NotInteractableObjects\\NotInteractableObject.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\NotInteractableObjects\\NotInteractableObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\NotInteractableObjects\\NotInteractableObject.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Objects\\NotInteractableObjects\\NotInteractableObject.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\NotInteractableObjects\\NotInteractableObject.cs",
               "RelativeToolTip": "Assets\\Scripts\\Objects\\NotInteractableObjects\\NotInteractableObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T20:15:45.374Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 38,
               "Title": "DoorFP.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\DoorFP.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\DoorFP.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\DoorFP.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\DoorFP.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\DoorFP.cs",
               "RelativeToolTip": "Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\DoorFP.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T19:08:13.593Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 39,
               "Title": "GraspableObjectKeyFP.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\GraspableObjectKeyFP.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\GraspableObjectKeyFP.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\GraspableObjectKeyFP.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\GraspableObjectKeyFP.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\GraspableObjectKeyFP.cs",
               "RelativeToolTip": "Assets\\Scripts\\FirstPerson\\InteractableObjectsFP\\GraspableObjectKeyFP.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -565,59 +646,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 10,
               "Title": "DoorFP.cs",
               "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\FirstPerson\\New Folder\\DoorFP.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\FirstPerson\\New Folder\\DoorFP.cs",
               "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\FirstPerson\\New Folder\\DoorFP.cs",
-              "RelativeToolTip": "Assets\\Scripts\\FirstPerson\\New Folder\\DoorFP.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAIwBsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-20T18:12:04.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 40,
               "Title": "RaycastInteraction.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\FirstPerson\\Player\\RaycastInteraction.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\FirstPerson\\Player\\RaycastInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FirstPerson\\Player\\RaycastInteraction.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\FirstPerson\\Player\\RaycastInteraction.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\FirstPerson\\Player\\RaycastInteraction.cs",
               "RelativeToolTip": "Assets\\Scripts\\FirstPerson\\Player\\RaycastInteraction.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-20T19:28:36.077Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "PlayerFP.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\FirstPerson\\Player\\PlayerFP.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\FirstPerson\\Player\\PlayerFP.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FirstPerson\\Player\\PlayerFP.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\FirstPerson\\Player\\PlayerFP.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\FirstPerson\\Player\\PlayerFP.cs",
               "RelativeToolTip": "Assets\\Scripts\\FirstPerson\\Player\\PlayerFP.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwAwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T19:23:44.861Z"
+              "WhenOpened": "2024-10-20T19:23:44.861Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 41,
               "Title": "MobilePlatform.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Platforms\\MobilePlatform.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Platforms\\MobilePlatform.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Platforms\\MobilePlatform.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Platforms\\MobilePlatform.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Platforms\\MobilePlatform.cs",
               "RelativeToolTip": "Assets\\Scripts\\Platforms\\MobilePlatform.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAMwE8AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T01:10:24.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 42,
               "Title": "TrapObject.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Objects\\TrapObject.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\TrapObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\TrapObject.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Objects\\TrapObject.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\TrapObject.cs",
               "RelativeToolTip": "Assets\\Scripts\\Objects\\TrapObject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -625,23 +705,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 43,
               "Title": "DestructiblePlatform.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Platforms\\DestructiblePlatform.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Platforms\\DestructiblePlatform.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Platforms\\DestructiblePlatform.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Platforms\\DestructiblePlatform.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Platforms\\DestructiblePlatform.cs",
               "RelativeToolTip": "Assets\\Scripts\\Platforms\\DestructiblePlatform.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T02:19:07.625Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 44,
               "Title": "AirJumpPowerUp.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Objects\\GraspableObjects\\PowerUps\\AirJumpPowerUp.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\GraspableObjects\\PowerUps\\AirJumpPowerUp.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\GraspableObjects\\PowerUps\\AirJumpPowerUp.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Objects\\GraspableObjects\\PowerUps\\AirJumpPowerUp.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\GraspableObjects\\PowerUps\\AirJumpPowerUp.cs",
               "RelativeToolTip": "Assets\\Scripts\\Objects\\GraspableObjects\\PowerUps\\AirJumpPowerUp.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -649,23 +729,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 45,
               "Title": "DashPowerUp.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Objects\\GraspableObjects\\PowerUps\\DashPowerUp.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\GraspableObjects\\PowerUps\\DashPowerUp.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\GraspableObjects\\PowerUps\\DashPowerUp.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Objects\\GraspableObjects\\PowerUps\\DashPowerUp.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\GraspableObjects\\PowerUps\\DashPowerUp.cs",
               "RelativeToolTip": "Assets\\Scripts\\Objects\\GraspableObjects\\PowerUps\\DashPowerUp.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBEAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T21:07:04.787Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 46,
               "Title": "PowerUpBase.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Objects\\GraspableObjects\\PowerUps\\PowerUpBase.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\GraspableObjects\\PowerUps\\PowerUpBase.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\GraspableObjects\\PowerUps\\PowerUpBase.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Objects\\GraspableObjects\\PowerUps\\PowerUpBase.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\GraspableObjects\\PowerUps\\PowerUpBase.cs",
               "RelativeToolTip": "Assets\\Scripts\\Objects\\GraspableObjects\\PowerUps\\PowerUpBase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -673,11 +753,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 47,
               "Title": "GraspableObjectKey.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Objects\\InteractableObjects\\GraspableObjectKey.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\InteractableObjects\\GraspableObjectKey.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\InteractableObjects\\GraspableObjectKey.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Objects\\InteractableObjects\\GraspableObjectKey.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\InteractableObjects\\GraspableObjectKey.cs",
               "RelativeToolTip": "Assets\\Scripts\\Objects\\InteractableObjects\\GraspableObjectKey.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -685,11 +765,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 48,
               "Title": "GraspableObject.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Objects\\GraspableObjects\\GraspableObject.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\GraspableObjects\\GraspableObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\GraspableObjects\\GraspableObject.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Objects\\GraspableObjects\\GraspableObject.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\GraspableObjects\\GraspableObject.cs",
               "RelativeToolTip": "Assets\\Scripts\\Objects\\GraspableObjects\\GraspableObject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -697,23 +777,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 49,
               "Title": "Player.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Player\\Player.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Player\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Player\\Player.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Player\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAQwDIAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAcwAUAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T20:13:00.735Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 50,
               "Title": "InteractableObject.cs",
-              "DocumentMoniker": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Objects\\InteractableObjects\\InteractableObject.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\InteractableObjects\\InteractableObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\InteractableObjects\\InteractableObject.cs",
-              "ToolTip": "D:\\Unity\\ReReProto\\Assets\\Scripts\\Objects\\InteractableObjects\\InteractableObject.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Downloads\\ReReProto\\Assets\\Scripts\\Objects\\InteractableObjects\\InteractableObject.cs",
               "RelativeToolTip": "Assets\\Scripts\\Objects\\InteractableObjects\\InteractableObject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

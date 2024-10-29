@@ -1,95 +1,76 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.LowLevel;
 
 public class DestructiblePlatform : MonoBehaviour
 {
-    private MoveWithFloor playerFloor;
+    [SerializeField] private float DestroyTime = 4f;
+    [SerializeField] private float RestartTime = 5f;
+    [SerializeField] private Color[] colors; // Array de colores
+    
+    private Renderer renderer;
+    private Collider collider;
 
-    [SerializeField] private float shakeForce;
-    [SerializeField] private float shakeTime;
-    [SerializeField] private float awaitToDestroyTime;
+    bool isInDestroyChange = false;
 
-    private Vector3 originalPlatformPosition;
-    private GameObject platform;
-    private int shakes = 0;
     private void Awake()
     {
-        platform = transform.GetChild(0).gameObject;
-        originalPlatformPosition = platform.transform.localPosition;
+        renderer = GetComponent<Renderer>();
+        collider = GetComponent<Collider>();
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void Start()
     {
-        if (!other.gameObject.CompareTag("Player")) return;
-        playerFloor = other.gameObject.GetComponent<MoveWithFloor>();
+        ChangeColor(0);
+    }
+    private void OnTriggerEnter(Collider col)
+    {
+        if (!col.CompareTag("Player")) return;
+        if (isInDestroyChange) return;
+        isInDestroyChange = true;
+        StartCoroutine(DestroyProcess());
+
     }
 
-    private void OnTriggerStay(Collider other)
+    private void ChangeColor(int index)
     {
-        if (!other.CompareTag("Player")) return;
-        if (playerFloor.groudName == gameObject.name) platformShake();
-        print(other.gameObject.name);
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (!other.CompareTag("Player")) return;
-        playerFloor = null;
-    }
-
-    private void platformShake()
-    {
-        
-        if (shakes < 4)
+        // Cambiar el color del material basado en el índice del array
+        if (index >= 0 && index < colors.Length && renderer != null)
         {
-            shakes++;
-            LeanTween.moveLocal(platform, new Vector3(
-            originalPlatformPosition.x + Random.Range(-shakeForce, shakeForce),
-            originalPlatformPosition.y,
-            originalPlatformPosition.z + Random.Range(-shakeForce, shakeForce)
-        ), shakeTime)
-        .setEase(LeanTweenType.easeShake)
-        .setOnComplete(() => {
-            platformShake();
-        });
-        }
-        else
-        {
-            LeanTween.moveLocal(platform, new Vector3(
-            originalPlatformPosition.x + Random.Range(-shakeForce, shakeForce),
-            originalPlatformPosition.y,
-            originalPlatformPosition.z + Random.Range(-shakeForce, shakeForce)
-        ), shakeTime)
-        .setEase(LeanTweenType.easeShake)
-        .setOnComplete(() => {
-            RestorePosition();
-        });
+            renderer.material.color = colors[index];
         }
     }
 
-    private void RestorePosition()
+    IEnumerator DestroyProcess()
     {
-        LeanTween.moveLocal(platform, originalPlatformPosition, 0.1f).setOnComplete(() => {
-            StartCoroutine(AwaitToDestroy());
-        });
-    }
-
-    private IEnumerator AwaitToDestroy()
-    {
-        yield return new WaitForSeconds(awaitToDestroyTime);
-        destroyCollisionComponent();
-
-
-    }
-
-    private void destroyCollisionComponent()
-    {
-        Collider[] collisionComponents = GetComponents<Collider>();
-        for (int i = 0; i < collisionComponents.Length; i++)
+        float currentTime = 0;
+        ChangeColor(1);
+        yield return new WaitForSeconds(DestroyTime/3);
+        currentTime += DestroyTime/3;
+        ChangeColor(2);
+        yield return new WaitForSeconds(DestroyTime / 3);
+        currentTime += DestroyTime / 6;
+        ChangeColor(3);
+        while (currentTime < DestroyTime)
         {
-            Destroy(collisionComponents[i]);
-            collisionComponents[i] = null;
+            ChangeColor(4);
+            yield return new WaitForSeconds(DestroyTime / 24);
+            ChangeColor(5);
+            yield return new WaitForSeconds(DestroyTime / 24);
+            currentTime += DestroyTime / 12;
         }
+        collider.enabled = false;
+        renderer.enabled = false;
+        StartCoroutine(RestartProcess());
+    }
+
+    IEnumerator RestartProcess()
+    {
+        yield return new WaitForSeconds(RestartTime);
+        isInDestroyChange = false;
+        collider.enabled = true;
+        renderer.enabled = true;
+        ChangeColor(0);
     }
 }

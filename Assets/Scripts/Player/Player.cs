@@ -5,7 +5,6 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(MovementComponent))]
 [RequireComponent(typeof(InteractionComponent))]
 [RequireComponent(typeof(InventoryComponent))]
-[RequireComponent (typeof(MoveWithFloor))]
 public class Player : MonoBehaviour
 {
     private MovementComponent movementComponent;
